@@ -4,8 +4,8 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(array)
-new_array = array
-  for name in new_array
+
+  for name in array
     new_name = "Hello, my name is #{name}."
     new_name
   end
