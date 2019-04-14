@@ -22,6 +22,11 @@ def printer(array)
   for item in new_array
     puts item
   end
-  assign_rooms(array)
+  new_rooms = assign_rooms(array)
+  for items in new_rooms
+    puts items
+  end
+
+
 
 end
