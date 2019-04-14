@@ -12,8 +12,9 @@ def batch_badge_creator(array)
 end
 
 def assign_rooms(array)
-  array.each_with_index {|val, index| puts "Hello, #{val}! You'll be assigned to room #{index}!" if index < 10}
-
+  new_array = Array.new
+  array.each_with_index {|val, index| new_array.push ("Hello, #{val}! You'll be assigned to room #{index}!") if index < 10}
+  new_array
 end
 
 def printer
