@@ -4,11 +4,11 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(array)
-
+  new_array = Array.new
   for name in array
-    name = "test_name"
+    new_array.push ("Hello, my name is #{name}.")
   end
-  return name
+  return new_array
 end
 
 def assign_rooms(array)
