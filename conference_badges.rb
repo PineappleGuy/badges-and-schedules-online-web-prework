@@ -13,7 +13,7 @@ end
 
 def assign_rooms(array)
   new_array = Array.new
-  array.each_with_index {|val, index| new_array.push ("Hello, #{val}! You'll be assigned to room #{index}!") if index < 10}
+  array.each_with_index {|val, index| new_array.push ("Hello, #{val}! You'll be assigned to room #{index + 1}!") if index < 10}
   new_array
 end
 
